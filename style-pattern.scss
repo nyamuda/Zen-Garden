@@ -61,3 +61,7 @@ section {
 .uppercase-light {
     @include uppercase($text-light);
 }
+
+.h2-paragraphs {
+    @include paragraphs($color: $text-light)
+}
