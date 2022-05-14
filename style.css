@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Lora&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Oxygen&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  background-color: #111F42;
+  padding: 5%;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  font-size: 85%;
+  color: #111F42;
+  background-color: #45547B;
+  margin: 0;
+  padding: 1em;
+}
+/*# sourceMappingURL=style.css.map */
