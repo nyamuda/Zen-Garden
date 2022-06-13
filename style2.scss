@@ -1,0 +1,70 @@
+@import 'variables';
+//this puts all the variables in the global namespace.
+// @use 'atoms';
+//@use 'molecules';
+//@use 'organisms' as o;
+* {
+    box-sizing: border-box;
+    border: 1pt dashed red;
+}
+
+html {
+    background-color: $background-color;
+    padding: 5%;
+}
+
+body {
+    display: grid;
+    font-family: $fonts-body;
+    font-size: 85%;
+    color: $text-dark;
+    background-color: $primary;
+    margin: 0;
+    padding: 1em;    
+}
+
+// .page-wrapper {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+// }
+
+.design-selection {
+    display: none;
+}
+
+%footer-format {
+    background-color: $primary;
+    color: $text-light;
+    display: flex;
+    flex-direction: column;
+    a {
+        color: $text-light;
+    }
+}
+
+//footer right
+footer {
+    @extend %footer-format;
+    grid-column: 3/4;
+    grid-row: 8;
+}
+
+
+.sidebar {
+    grid-column: 1/3;
+    grid-row: 8;
+}
+
+//footer left
+#zen-resources {
+    
+    @extend %footer-format;
+}
+
+//footer middle
+#design-archives {
+    @extend %footer-format;
+    grid-column: 1/3;
+    grid-row: 8;
+    
+}

@@ -10,6 +10,9 @@
   }
 }
 .summary {
+  //WE MADE THIS LINE (LINDSEY AND KAROL)
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
   @include atoms.uppercase($text-light);
   padding: 15% 0;
   p:last-child {
