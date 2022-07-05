@@ -1,0 +1,61 @@
+@import 'variables';
+.intro {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+header {
+    grid-column: 1/4;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    background-color: $background-color;
+    color: $text-light;
+    font-family: $fonts-body;
+    padding-left: $left-space;
+    padding-right: $left-space;
+    grid-column: 1/2;
+}
+
+.summary p:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.summary p:nth-child(2) a {
+    border: 2px solid $accent1;
+    border-radius: 8px;
+    text-decoration: none;
+    color: $text-light;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.summary p:nth-child(2) a:hover {
+    background-color: $accent1;
+}
+
+.preamble {
+    border: 1px solid;
+    padding-left: $left-space;
+    padding-right: $left-space;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    grid-column: 2/4;
+}
+
+@media (min-width:768px) {
+    .intro {
+        display: grid;
+    }
+}
