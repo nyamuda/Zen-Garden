@@ -1,0 +1,27 @@
+@import 'variables';
+.requirements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: $background-color;
+    color: $text-light;
+    font-family: $fonts-body;
+    padding-left: $left-space;
+    padding-right: $left-space;
+    margin-top: 1rem;
+}
+
+.requirements p>a {
+    color: $accent2;
+}
+
+p[role=contentinfo] {
+    background-color: $accent1;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+p[role=contentinfo] a {
+    color: $text-light;
+    // font-style: italic;
+}

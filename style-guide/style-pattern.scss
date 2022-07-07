@@ -1,5 +1,5 @@
-@import 'variables'; //this puts all the variables in the global namespace.
-@import 'atoms';
+@import '../variables'; //this puts all the variables in the global namespace.
+@import '../atoms';
 //@use 'molecules';
 //@use 'organisms' as o;
 * {

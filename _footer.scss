@@ -1,0 +1,26 @@
+@import 'variables';
+footer {
+    display: flex;
+    align-items: flex-start;
+    font-family: $fonts-body;
+    padding-right: $left-space;
+    margin-top: 2.1rem;
+}
+
+footer>a {
+    text-decoration: none;
+    margin-left: $left-space;
+}
+
+aside {
+    background-color: $primary;
+    margin-top: 1rem;
+    padding-left: $left-space;
+    padding-right: $left-space;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
