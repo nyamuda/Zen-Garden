@@ -1,6 +1,6 @@
 # Zen-Garden
 WDD 331R  Zen Garden Project  
-[Link to the web page:](https://github.com/pnyamuda/Zen-Garden)  
+Link to [Zen Garden Page](https://pnyamuda.github.io/Zen-Garden/)  
   
 ## Collaborators:
 Tatenda N.  
