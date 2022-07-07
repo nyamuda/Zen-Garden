@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Oxygen&display=swap");
 a {
   color: #D8A459;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -65,8 +64,7 @@ p {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -134,5 +132,4 @@ section {
 .h2-paragraphs {
   text-align: left;
   color: #fff;
-}
-/*# sourceMappingURL=style-pattern.css.map */
+}/*# sourceMappingURL=style-pattern.css.map */
