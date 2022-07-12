@@ -1,5 +1,7 @@
 @import 'variables';
 // mixins to take care of repeated patterns.
+
+
 @mixin paragraphs($align:left, $color:$text-dark) {
     text-align: $align;
     color: $color;
@@ -29,7 +31,7 @@
     padding-top: 1.5em;
 }
 
-// these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
+// The atoms (elements) should appear most of the time, but can be overridden at the molecule (block) as needed.
 a {
     color: $accent1;
     transition: all 0.2s ease-in-out;
